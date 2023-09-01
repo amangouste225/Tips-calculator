@@ -15,6 +15,7 @@ function App() {
 
   const tip = bill * ((percent1 + percent2) / 2 / 100)
 
+  console.log(tip)
   function handleReset() {
     setPercent1(0)
     setPercent2(0)
